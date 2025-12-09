@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Artem Polishchuk <ego.cordatus@gmail.com> -->
+<component type="desktop-application">
+  <id>net.veloren.veloren.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Veloren</name>
+  <provides>
+    <binary>veloren-voxygen</binary>
+  </provides>
+
+  <content_rating type="oars-1.0">
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">mild</content_attribute>
+    <content_attribute id="violence-cartoon">mild</content_attribute>
+    <content_attribute id="violence-fantasy">mild</content_attribute>
+  </content_rating>
+
+  <summary>Veloren is an action RPG set in a vast fantasy world made of voxels</summary>
+  <summary xml:lang="de">Veloren ist ein Action-RPG, das in einer riesigen Fantasiewelt aus Voxeln spielt</summary>
+
+  <description>
+    <p>Welcome To Veloren!</p>
+    <p xml:lang="de">Willkommen bei Veloren!</p>
+    
+    <p>
+      Veloren is an action-adventure RPG game set in a vast fantasy world.
+      It is inspired by other games such as Cube World,
+      The Legend of Zelda: Breath of the Wild, Dwarf Fortress and Minecraft.
+    </p>
+    <p xml:lang="de">
+      Veloren ist ein Action-Adventure-Rollenspiel, das in einer riesigen Fantasiewelt spielt.
+      Es ist inspiriert von anderen Spielen wie Cube World,
+      The Legend of Zelda: Breath of the Wild, Dwarf Fortress und Minecraft.
+    </p>
+
+    <h2>Development</h2>
+    <h2 xml:lang="de">Entwicklung</h2>
+
+    <p>
+      You are welcome to join our [Zulip server](https://veloren.net/zulip) to chat with the community.
+    </p>
+    <p xml:lang="de">
+      Du bist herzlich eingeladen, unserem [Zulip-Server] (https://veloren.net/zulip) beizutreten und mit der Community zu chatten.
+    </p>
+  </description>
+
+  <releases>
+    <release date="@DATE@" version="@VERSION@"></release>
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://s3.eu-central-2.wasabisys.com/veloren-blog/cdn/634860358623821835/884138091537907793/screenshot_1630865233900.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://s3.eu-central-2.wasabisys.com/veloren-blog/cdn/634860358623821835/885141629902684180/bg_12.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://s3.eu-central-2.wasabisys.com/veloren-blog/cdn/634860358623821835/884297602462539876/screenshot_1630903166427.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://s3.eu-central-2.wasabisys.com/veloren-blog/cdn/634860358623821835/885141632519905330/bg_10.jpg</image>
+    </screenshot>
+  </screenshots>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>gamepad</control>
+  </supports>
+
+  <keywords>
+    <keyword>multiplayer</keyword>
+    <keyword>sandbox</keyword>
+    <keyword>world</keyword>
+  </keywords>
+
+  <url type="bugtracker">https://gitlab.com/veloren/veloren/issues</url>
+  <url type="faq">https://gitlab.com/veloren/veloren#faq</url>
+  <url type="help">https://book.veloren.net/</url>
+  <url type="homepage">https://veloren.net</url>
+</component>

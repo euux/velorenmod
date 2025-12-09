@@ -1,0 +1,21 @@
+[package]
+name = "veloren-voxygen-egui"
+version = "0.9.0"
+edition.workspace = true
+authors = ["Ben Wallis <atomyc@gmail.com>"]
+
+[lints]
+workspace = true
+
+[features]
+use-dyn-lib = ["common-dynlib"]
+be-dyn-lib = []
+
+[dependencies]
+client = {package = "veloren-client", path = "../../client"}
+common = {package = "veloren-common", path = "../../common"}
+egui = "0.32"
+egui_plot = "0.33"
+egui_winit_platform = "0.27"
+lazy_static = { workspace = true }
+common-dynlib = {package = "veloren-common-dynlib", path = "../../common/dynlib", optional = true}
